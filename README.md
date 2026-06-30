@@ -5,13 +5,13 @@
 
 [![GitHub](https://img.shields.io/badge/GitHub-anirudh2003--ai-black?logo=github)](https://github.com/anirudh2003-ai)
 [![Email](https://img.shields.io/badge/Email-anirudharyaso%40gmail.com-red?logo=gmail)](mailto:anirudharyaso@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](YOUR_LINKEDIN_URL)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://www.linkedin.com/in/anirudh-aryasomayajula-9082bb217/)
 
 ---
 
 ## 👨‍💻 About Me
 
-I am an MEng Computer Science student at the **University of Birmingham**, currently on track for a **First Class** degree, with a strong focus on **AI engineering, deep learning, data science, biomedical signal processing, and cloud infrastructure**.
+I am an MEng Computer Science student at the **University of Birmingham**, with a strong focus on **AI engineering, deep learning, data science, biomedical signal processing, and cloud infrastructure**.
 
 My broader research interests are in **AI models, data science, deep learning, time-series modelling, generative AI, and robust neural systems**.
 
