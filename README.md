@@ -1,7 +1,7 @@
 # Anirudh Aryasomayajula  
 ### AI Engineer | Data Science | AI Models | Physics-Informed ML | Cloud & DevOps Learner
 
-> "I build AI systems that move beyond prediction — systems that reason over signals, recover hidden state, and stay stable in real-world conditions."
+> "I build AI systems that move beyond prediction systems that reason over signals, recover hidden state, and stay stable in real-world conditions."
 
 [![GitHub](https://img.shields.io/badge/GitHub-anirudh2003--ai-black?logo=github)](https://github.com/anirudh2003-ai)
 [![Email](https://img.shields.io/badge/Email-anirudharyaso%40gmail.com-red?logo=gmail)](mailto:anirudharyaso@gmail.com)
