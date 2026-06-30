@@ -191,13 +191,6 @@ C++ application simulating planetary motion using gravitational interactions, op
 - 📝 Write technical posts explaining inverse problems, time-series AI, signal processing, and cloud deployment  
 - 🌟 Contribute to open-source AI, data science, or cloud-native tools  
 
----
-
-## 📈 GitHub Analytics
-
-![Anirudh's GitHub stats](https://github-readme-stats.vercel.app/api?username=anirudh2003-ai&show_icons=true&theme=tokyonight)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=anirudh2003-ai&layout=compact&theme=tokyonight)
 
 ---
 
@@ -215,7 +208,7 @@ I am open to collaboration on:
 
 [![GitHub](https://img.shields.io/badge/GitHub-anirudh2003--ai-black?logo=github)](https://github.com/anirudh2003-ai)
 [![Email](https://img.shields.io/badge/Email-anirudharyaso%40gmail.com-red?logo=gmail)](mailto:anirudharyaso@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](YOUR_LINKEDIN_URL)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://www.linkedin.com/in/anirudh-aryasomayajula-9082bb217/)
 
 ---
 
