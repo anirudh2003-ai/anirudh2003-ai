@@ -1,7 +1,7 @@
-# Anirudh Aryasomayajula  
-### AI Engineer | Data Science | AI Models | Physics-Informed ML | Cloud & DevOps Learner
+# Anirudh Aryasomayajula
+### Quantitative Research | Financial Markets | Risk & Trading Analytics | Python & C++
 
-> "I build AI systems that move beyond prediction systems that reason over signals, recover hidden state, and stay stable in real-world conditions."
+> Building quantitative systems that turn complex market data into research, risk insight, and decision-ready analysis.
 
 [![GitHub](https://img.shields.io/badge/GitHub-anirudh2003--ai-black?logo=github)](https://github.com/anirudh2003-ai)
 [![Email](https://img.shields.io/badge/Email-anirudharyaso%40gmail.com-red?logo=gmail)](mailto:anirudharyaso@gmail.com)
@@ -9,202 +9,192 @@
 
 ---
 
-## 👨‍💻 About Me
+## About Me
 
-I am an MEng Computer Science student at the **University of Birmingham**, with a strong focus on **AI engineering, deep learning, data science, biomedical signal processing, and cloud infrastructure**.
+I am an **MSc Statistics with Finance student at the University of Warwick** and an **MEng Computer Science graduate from the University of Birmingham**.
 
-My broader research interests are in **AI models, data science, deep learning, time-series modelling, generative AI, and robust neural systems**.
+My work sits at the intersection of **financial markets, quantitative research, statistical modelling, data analysis, and software engineering**. I am particularly interested in how data and models can be used to understand **market behaviour, risk, trading, commodities, portfolio decisions, and broader financial problems**.
 
-My flagship research project is a **novel physics-informed neural state estimation system** for recovering multiple cardiovascular variables from a single short-channel fNIRS signal. I am currently refining this work with the aim of preparing it for publication. The system combines causal physiological feature extraction, probabilistic modelling, normalizing flows, causal WaveNet, autoregressive rollout, and innovation-feedback drift correction.
+I enjoy taking problems end-to-end: **forming a research question, working with imperfect data, engineering useful features, building and challenging models, validating results, and turning the output into something decision-useful**.
 
-I also have hands-on experience building applied AI systems, including a production-ready computer vision and LLM pipeline during my AI Engineering internship at **Aerosimple**, where I worked on image upscaling, species classification, and real-time contextual insight generation for non-technical users.
+Current and recent work includes:
 
-I am currently building depth across **AI/Data Science** and **Cloud/DevOps**, with active learning and projects involving **AWS, Azure, Docker, Terraform, Kubernetes, CI/CD, and infrastructure automation**.
-
----
-
-## 📊 By The Numbers
-
-| 🎓 Degree | 🤖 AI Projects | ☁️ Cloud Platforms | 🧠 Main Research Area | 🚀 Flagship Research |
-|---|---:|---:|---|---|
-| MEng Computer Science | 5+ | AWS + Azure | AI Models & Data Science | Novel Physics-Informed fNIRS State Estimation |
+- **Electronic markets:** C++20 market replay, order-book reconstruction, execution, positions, exposure, risk controls, and P&L.
+- **Commodity & alternative data:** Python/SQL LNG analytics across 1.7M+ vessel observations, with point-in-time risk indicators and an interactive monitoring dashboard.
+- **Quantitative research:** probabilistic time-series modelling, state estimation, robustness testing, regime-shift analysis, and model validation.
+- **Research collaboration:** physics-informed modelling with a PhD researcher in materials science.
+- **Applied AI:** production AI systems developed during an engineering internship and tested in real operational environments.
 
 ---
 
-## 🎯 Current Engagements
+## Current Focus
 
-- 🔭 **Working on:** AI models, data science projects, and novel physics-informed neural state estimation from fNIRS  
-- 📝 **Preparing for publication:** My novel fNIRS-based cardiovascular state-estimation architecture using physics-informed feature extraction, normalizing flows, causal WaveNet, autoregressive rollout, and innovation feedback  
-- 🌱 **Learning:** AWS, Azure, Docker, Terraform, Kubernetes, CI/CD, and production-grade cloud deployment  
-- 🤖 **Building:** Deep learning systems for inverse problems, signal decomposition, generative AI, and real-world time-series modelling  
-- ☁️ **Exploring:** Cloud platform engineering, infrastructure as code, observability, and scalable ML deployment  
-- 💬 **Ask me about:** PyTorch, data science, time-series modelling, normalizing flows, WaveNet, signal processing, AWS, Docker, Terraform, and Kubernetes  
-- ⚡ **Fun fact:** I enjoy projects where the challenge is not just accuracy, but keeping models stable when they run in closed-loop over long horizons  
+- Quantitative research and systematic trading
+- Market risk, exposure, and portfolio analytics
+- Financial time-series modelling and forecasting
+- Market microstructure, liquidity, and execution
+- Commodity and alternative-data research
+- Statistical learning and predictive modelling
+- Derivatives, stochastic finance, and quantitative methods
+- Research workflows that are reproducible, point-in-time correct, and robust to changing conditions
 
 ---
 
-## 🛠️ Technology Arsenal
+## Featured Finance & Quantitative Projects
 
-### 🤖 AI, ML & Data Science
+### Electronic Market Replay & Trading / Risk Infrastructure
+
+A **C++20 historical market-replay and market-state system** built using LOBSTER-derived AAPL limit-order-book data.
+
+**What it covers**
+- Price-time-priority order-book reconstruction
+- Order entry, cancellation, modification, partial fills, and execution
+- Market-making logic
+- Cash and position tracking
+- Inventory exposure
+- Pre-trade controls
+- Marked P&L
+- Deterministic replay, sequence validation, gap detection, and recovery
+
+**Research angle:** using reproducible historical market state to study **order flow, liquidity, execution, inventory, and market behaviour**.
+
+**Scale:** 400,391 historical source rows, with zero recovery misses under injected event-loss tests.
+
+**Tech:** `C++20` `Market Microstructure` `Limit Order Books` `Execution` `Positions` `Risk` `P&L`
+
+[Repository](https://github.com/anirudh2003-ai/electronic-order-book) · [Technical report](https://github.com/anirudh2003-ai/electronic-order-book/blob/main/docs/electronic_order_book_performance_report_graph_analysis.pdf)
+
+---
+
+### CargoPulse — LNG Physical-Market & Alternative-Data Analytics
+
+A **Python/SQL quantitative analytics platform** built across more than **1.7 million AIS vessel observations** to reconstruct LNG terminal activity and analyse changing physical-market conditions.
+
+**What it covers**
+- Terminal utilisation and capacity saturation
+- Congestion and abnormal delay
+- Persistence and vessel-flow pressure
+- Point-in-time daily risk states
+- Underlying drivers behind changing conditions
+- Temporal integrity and look-ahead prevention
+- Interactive risk-monitoring and research dashboard
+
+The project turns fragmented vessel-level observations into a reproducible chain of:
+
+**raw data → validated events → engineered indicators → risk states → interpretable market insight**
+
+**Validation:** 22 analytical transformation models supported by 161 automated checks.
+
+**Tech:** `Python` `SQL` `Pandas` `PostgreSQL/PostGIS` `dbt` `Airflow` `Streamlit` `Plotly` `Time Series` `Alternative Data`
+
+[Repository](https://github.com/anirudh2003-ai/cargopulse) · [Technical report](https://github.com/anirudh2003-ai/cargopulse/blob/main/docs/CargoPulse_Institutional_Engineering_Research_Report.pdf)
+
+---
+
+### Probabilistic Time-Series Research & Model Validation
+
+My MEng thesis focused on **latent-state estimation under noisy and incomplete observations** and on why predictive systems become less reliable as conditions drift over time.
+
+I designed a **novel probabilistic time-series architecture** combining a conditional normalising flow, causal WaveNet, innovation feedback, and gated bias correction.
+
+**Research methodology**
+- Hypothesis-driven experimentation
+- Benchmarking against comparison models
+- Component ablation
+- Out-of-time evaluation
+- Long-horizon stability testing
+- Regime-shift and generalisation analysis
+- Failure-mode analysis
+
+The architecture **outperformed most comparison models under drifting conditions**, while controlled ablation showed the importance of the feedback mechanism to closed-loop performance.
+
+**Tech:** `Python` `PyTorch` `TensorFlow` `scikit-learn` `XGBoost` `Time Series` `Probabilistic Modelling` `Model Research`
+
+---
+
+### Physics-Informed Modelling Research Collaboration
+
+Collaborating with a **PhD researcher in materials science** on physics-informed modelling, applying quantitative and computational methods to an open-ended scientific research problem.
+
+This work strengthens my experience in **forming hypotheses, working across unfamiliar domains, challenging assumptions, and evaluating model behaviour rather than relying only on headline metrics**.
+
+**Focus:** `Quantitative Research` `Physics-Informed Modelling` `Scientific ML` `Statistical Analysis`
+
+---
+
+## Industry Experience
+
+### AI Engineer Intern — Aerosimple
+
+- Led a **three-person internship team** from problem definition through design, implementation, testing, and deployment.
+- Built a **production-ready AI system beta-tested by airports worldwide**.
+- Worked directly with the **CEO and CTO**, presenting findings, assumptions, trade-offs, and recommendations.
+- Combined image processing, multimodal/LLM inference, and contextual-data retrieval in a real operational workflow.
+
+This experience strengthened my ability to work in a **small, collaborative team**, communicate technical analysis clearly, and take ownership of an ambiguous problem through to delivery.
+
+---
+
+## Quantitative & Financial Toolkit
+
+### Markets & Finance
+
+`Market Microstructure` `Limit Order Books` `Order Flow` `Liquidity` `Execution` `Market Making` `Positions` `Exposure` `Risk Controls` `P&L` `Commodity Markets` `Alternative Data` `Financial Time Series`
+
+### Quantitative Research
+
+`Probability` `Statistics` `Regression` `Time-Series Analysis` `Predictive Modelling` `State Estimation` `Numerical Methods` `Feature Engineering` `Hypothesis Testing` `Out-of-Time Testing` `Regime Analysis`
+
+### Machine Learning & Data Science
 
 ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?logo=tensorflow&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?logo=numpy&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?logo=numpy&logoColor=white)
 ![SciPy](https://img.shields.io/badge/SciPy-8CAAE6?logo=scipy&logoColor=white)
-![scikit--learn](https://img.shields.io/badge/scikit--learn-F7931E?logo=scikitlearn&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?logo=scikitlearn&logoColor=white)
+![XGBoost](https://img.shields.io/badge/XGBoost-EB5B1B)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?logo=tensorflow&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch&logoColor=white)
 
-### 🧠 Deep Learning & Generative AI
+### Programming & Data
 
-![Deep Learning](https://img.shields.io/badge/Deep%20Learning-111111)
-![Generative AI](https://img.shields.io/badge/Generative%20AI-6A5ACD)
-![Computer Vision](https://img.shields.io/badge/Computer%20Vision-008080)
-![LLMs](https://img.shields.io/badge/LLMs-4B0082)
-![LoRA](https://img.shields.io/badge/LoRA-FF69B4)
-![PEFT](https://img.shields.io/badge/PEFT-8A2BE2)
-
-### ☁️ Cloud Platforms
-
-![AWS](https://img.shields.io/badge/AWS-232F3E?logo=amazonaws&logoColor=white)
-![Azure](https://img.shields.io/badge/Azure-0078D4?logo=microsoftazure&logoColor=white)
-
-### ⚙️ DevOps & Orchestration
-
-![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?logo=kubernetes&logoColor=white)
-![Terraform](https://img.shields.io/badge/Terraform-844FBA?logo=terraform&logoColor=white)
-![GitLab CI](https://img.shields.io/badge/GitLab%20CI-FC6D26?logo=gitlab&logoColor=white)
-![CI/CD](https://img.shields.io/badge/CI%2FCD-111111)
-
-### 📊 Monitoring & Observability
-
-![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?logo=prometheus&logoColor=white)
-![Grafana](https://img.shields.io/badge/Grafana-F46800?logo=grafana&logoColor=white)
-
-### 💻 Programming & Web
-
-![Java](https://img.shields.io/badge/Java-007396?logo=openjdk&logoColor=white)
-![C](https://img.shields.io/badge/C-A8B9CC?logo=c&logoColor=black)
-![C++](https://img.shields.io/badge/C++-00599C?logo=cplusplus&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
-![React](https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)
-
-### 🗄️ Databases & Infrastructure
-
-![RDS](https://img.shields.io/badge/AWS%20RDS-527FFF?logo=amazonrds&logoColor=white)
+![C++](https://img.shields.io/badge/C++20-00599C?logo=cplusplus&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-336791)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?logo=linux&logoColor=black)
-![Nginx](https://img.shields.io/badge/Nginx-009639?logo=nginx&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white)
+
+### Research & Visualisation
+
+`Point-in-Time Analysis` `Data Validation` `Backtesting Principles` `Streamlit` `Plotly` `Matplotlib` `Research Dashboards` `Reproducible Workflows`
 
 ---
 
-## 💡 What I Specialise In
+## Education
 
-| Area | What I Do |
-|---|---|
-| 🧠 Physics-Informed Machine Learning | Build models that use signal structure, physiological constraints, and feedback mechanisms instead of relying only on black-box regression |
-| 📈 Time-Series AI | Work on autoregressive forecasting, state estimation, signal decomposition, drift correction, and long-horizon stability |
-| 🔬 Biomedical Signal Processing | Extract meaningful information from noisy physiological signals such as fNIRS and cardiovascular time series |
-| 🤖 Generative AI & LLMs | Fine-tune and adapt language models using LoRA/PEFT, checkpointing, and continual training workflows |
-| 👁️ Computer Vision | Build image enhancement and classification pipelines using PyTorch, RealESRGAN, and pretrained models |
-| ☁️ Cloud Platform Engineering | Design AWS-based infrastructure with VPCs, ECS/Fargate, ALB, Route 53, RDS, IAM, and private networking |
-| ⚙️ DevOps & Infrastructure as Code | Learning and applying Docker, Terraform, Kubernetes, GitLab CI, CI/CD pipelines, and reproducible deployment workflows |
-| 📊 Observability | Use Prometheus and Grafana to monitor system health, latency, reliability, and infrastructure behaviour |
-| 🚀 High-Performance Computing | Build and optimise C/C++ simulations using MPI, OpenMP, SIMD, and performance benchmarking |
-| 📉 Data Visualisation | Build robust data ingestion and visualisation pipelines using Python, Pandas, Matplotlib, Plotly, Node.js, and Vite |
+### University of Warwick
+**MSc Statistics with Finance** — 2026–2027  
+Expected formal graduation: **December 2027**
 
----
+Relevant study includes **advanced probability, time series, stochastic finance, stochastic calculus in finance, derivatives, market microstructure, liquidity, execution, and quantitative modelling**.
 
-## 🏗️ Featured Projects
+### University of Birmingham
+**MEng Computer Science** — 2022–2026  
+**Upper Second-Class Honours (2:1, 68%)**
 
-### 🌟 Physics-Informed Neural State Estimation from fNIRS
-
-Novel deep learning architecture for recovering four cardiovascular state trajectories from a single short-channel fNIRS signal.
-
-**Key techniques:** Physics-informed feature extraction, normalizing flows, causal WaveNet, autoregressive rollout, innovation feedback, EMA drift correction.
-
-`PyTorch` `Time Series` `Signal Processing` `Normalizing Flows` `WaveNet` `Biomedical AI`
+Quantitative and technical work included **probability and statistics, numerical methods, optimisation, machine learning, time-series analysis, state estimation, algorithms, databases, and high-performance computing**.
 
 ---
 
-### 🔥 AI Bird Species Identification System — Aerosimple
+## What I Am Looking For
 
-Production-ready AI pipeline where staff capture a bird photo, upscale it using RealESRGAN, classify the species using an LLM, and retrieve contextual ecological details.
+I am interested in opportunities across **quantitative research, trading, market risk, commodities, asset management, financial analytics, investment research, data science, and technology-driven finance**.
 
-**Key techniques:** Image enhancement, computer vision, LLM integration, real-time user-facing AI.
-
-`PyTorch` `RealESRGAN` `Torch-DirectML` `PIL` `Computer Vision` `LLMs`
+I am particularly drawn to teams where rigorous analysis matters: environments in which people are expected to **understand the data, question assumptions, communicate the drivers behind a result, and turn research into better financial decisions**.
 
 ---
 
-### ☁️ Cloud Platform & Infrastructure Engineering
-
-Production-grade AWS platform using Terraform, ECS/Fargate, VPC networking, RDS, ALB, Route 53, Prometheus, and Grafana.
-
-**Key techniques:** Infrastructure as Code, containerisation, observability, zero-trust networking, cloud security.
-
-`AWS` `Terraform` `Docker` `ECS` `RDS` `Prometheus` `Grafana`
-
----
-
-### 🤖 Interview Feedback LLM
-
-Fine-tuned Microsoft Phi-2 on interview Q&A data to generate targeted candidate feedback using LoRA adapters and continual checkpoint-based training.
-
-**Key techniques:** PEFT/LoRA, continual training, checkpoint resume workflows, data normalisation, mixed precision.
-
-`PyTorch` `LoRA` `PEFT` `LLMs` `bitsandbytes` `bf16/fp16`
-
----
-
-### 📊 OpenSourceLab — High-Performance Visualisation Engine
-
-Hybrid visualisation system connecting a Node.js/Vite frontend to a Python computational backend for interactive Plotly visualisations and Matplotlib-quality static export.
-
-**Key techniques:** Figure dispatch, 3D mesh generation, robust data ingestion, schema detection, NaN/Inf handling.
-
-`Python` `Node.js` `Vite` `Pandas` `Matplotlib` `Plotly`
-
----
-
-### 🌍 High-Performance Planetary Simulation
-
-C++ application simulating planetary motion using gravitational interactions, optimised with MPI, OpenMP, SIMD, and compiler-level performance tuning.
-
-**Key techniques:** Numerical simulation, parallel computing, performance benchmarking, scientific computing.
-
-`C++` `MPI` `OpenMP` `SIMD` `HPC`
-
----
-
-## 🎯 2026 Goals
-
-- 🚀 Secure an AI Engineer, Data Scientist, Machine Learning Engineer, or Cloud-aware ML Engineering role  
-- 📝 Prepare my novel physics-informed fNIRS state-estimation architecture for publication  
-- 🧠 Build a strong portfolio around AI models, data science, time-series learning, generative AI, and robust neural systems  
-- ☁️ Build production-ready cloud ML deployments using AWS, Azure, Docker, Terraform, and Kubernetes  
-- 📚 Strengthen MLOps, CI/CD, cloud infrastructure, and model deployment skills  
-- 🔬 Extend my research work toward multi-subject evaluation and adaptive online inference  
-- 📝 Write technical posts explaining inverse problems, time-series AI, signal processing, and cloud deployment  
-- 🌟 Contribute to open-source AI, data science, or cloud-native tools  
-
-
----
-
-## 🌐 Let's Connect & Collaborate
-
-I am open to collaboration on:
-
-- Physics-informed machine learning  
-- Time-series AI and state estimation  
-- Biomedical signal processing  
-- Generative AI and LLM fine-tuning  
-- Cloud ML deployment  
-- AWS/Azure infrastructure projects  
-- Docker, Terraform, Kubernetes, and MLOps workflows  
+## Contact
 
 [![GitHub](https://img.shields.io/badge/GitHub-anirudh2003--ai-black?logo=github)](https://github.com/anirudh2003-ai)
 [![Email](https://img.shields.io/badge/Email-anirudharyaso%40gmail.com-red?logo=gmail)](mailto:anirudharyaso@gmail.com)
@@ -212,6 +202,4 @@ I am open to collaboration on:
 
 ---
 
-> "The best AI systems are not just accurate — they are stable, interpretable, and engineered to survive real-world noise."
-
-⭐ If you find my work useful, feel free to explore or star the repositories.
+> **Research the problem. Validate the evidence. Understand the risk. Build the system.**
